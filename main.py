@@ -141,7 +141,7 @@ def main():
     run = True
     while run:
         game_speed = point // 10 + 20
-        if ammo < 20 and tick % 10 == 0:
+        if ammo < 30 and tick % 10 == 0:
             ammo += 1
 
         for event in pygame.event.get():
